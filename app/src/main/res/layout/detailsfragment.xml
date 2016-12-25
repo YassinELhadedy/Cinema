@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp"
+            android:background="#0D47A1"
+
+
+
+
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/t"
+            android:textStyle="italic"
+
+            android:textSize="20dp"
+            android:textColor="@android:color/background_light"
+            android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/full_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="250dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="45dp"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@style/Base.V7.Theme.AppCompat.Light"
+            />
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_alignRight="@+id/full_image_view"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:id="@+id/t1"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18dp"
+            android:textStyle="italic"
+
+
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:id="@+id/t2"
+            android:textSize="18dp"
+            android:textStyle="italic"
+
+            android:textColor="?android:attr/colorForeground" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_alignRight="@+id/t1"
+            android:layout_marginTop="80dp"
+            android:id="@+id/bt"
+
+            style="?android:attr/starStyle"
+
+
+
+            />
+        <RatingBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/full_image_view"
+            android:numStars="7"
+            android:id="@+id/myRatingBar"
+            android:isIndicator="false"
+            style="?android:attr/ratingBarStyleSmall"
+            android:stepSize="1"
+
+
+
+
+            android:layout_marginTop="180dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_below="@+id/t2"
+            android:layout_marginTop="40dp"
+            android:id="@+id/view"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view"
+            android:layout_alignTop="@+id/view"
+            android:layout_marginTop="3dp"
+            android:id="@+id/btr"
+            android:text="Trailers"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorAccent"
+            android:background="@color/colorAccent"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_below="@+id/btr"
+            android:layout_marginTop="5dp"
+            android:id="@+id/view2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view2"
+            android:layout_alignTop="@+id/view2"
+            android:layout_marginTop="5dp"
+            android:id="@+id/brev"
+            android:text="Reviews"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorAccent"
+            android:background="@color/colorAccent"/>
+
+    </RelativeLayout>
+
+</ScrollView>
